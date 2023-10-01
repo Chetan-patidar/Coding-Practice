@@ -1,3 +1,13 @@
+/*
+Given a Binary Search Tree. 
+Convert a given BST into a Special Max Heap with 
+the condition that all the values in the left subtree of a node should be less than all the values in the right subtree of the node.
+This condition is applied on all the nodes in the so converted Max Heap.
+*/
+        
+
+
+
 void inorder(Node* root,vector<int> &arr){
         if(root==NULL)
             return;
